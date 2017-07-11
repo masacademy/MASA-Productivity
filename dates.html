@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://trello.com/power-ups/power-up.css">
+		<script src="https://trello.com/power-ups/power-up.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="https://api.trello.com/1/client.js?key=58c6b48112cc8a70eb7de08726a8b006"></script>
+		<style>
+			#content {
+				text-align: center;
+			}
+			p {
+				margin: 5px 0;
+    			font-size: 16px;
+    			font-weight: bold;
+			}
+
+			input {
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<p>Inicio:</p>
+			<input id="initialEvaluationDate" type="date" name="initialDate" >
+			<p>Final:</p>
+			<input id="finalEvaluationDate" type="date" name="finalDate">
+			<button id="evaluate" class="mod-primary">Evaluar</button>
+		</div>
+		<script src="./js/dates.js"></script>
+	</body>
+</html>

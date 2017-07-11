@@ -1,0 +1,21 @@
+{
+  "name": "MaSA Productivity",
+  "description": "",
+  "details": "Medición de entrega de proyectos y tareas.",
+  "icon": {
+    "url": "./images/logo.png"
+  },
+  "author": "Jorge Carlos",
+  "capabilities": [
+    "board-buttons",
+    "callback"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  },
+  "recommend": {
+    "urls": []
+  }
+}

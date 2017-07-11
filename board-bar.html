@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://trello.com/power-ups/power-up.css">
+		<link rel="stylesheet" href="./css/board-bar.css">
+		<script src="https://trello.com/power-ups/power-up.min.js"></script>
+	</head>
+	<body>
+		<div id="productivity">
+			<h1>Evaluación de productividad - <span id="start"></span> al <span id="end"></span></h1>
+			<hr/>
+			<div class="row">
+				<div class="column">
+					<h2>Tareas</h2>
+					<h3>Total: <span id="total"></span></h3>
+					<ul>
+						<li class="small">Pequeñas: <span id="small"></span></li>
+						<li class="medium">Medianas: <span id="medium"></span></li>
+						<li class="big">Grandes: <span id="big"></span></li>
+					</ul>
+					<p class="uncategorized">Sin categoría: <span id="uncategorized"></span></p>
+				</div>
+				<div class="column">
+					<h2>En tiempo</h2>
+					<h3>Total: <span id="total-on-time"></span></h3>
+					<ul>
+						<li class="small">Pequeñas: <span id="small-on-time"></span></li>
+						<li class="medium">Medianas: <span id="medium-on-time"></span></li>
+						<li class="big">Grandes: <span id="big-on-time"></span></li>
+					</ul>
+					<p class="uncategorized">Sin categoría: <span id="uncategorized-on-time"></span></p>
+				</div>
+				<div class="column">
+					<h2>Porcentaje</h2>
+					<h3>Total: <span id="total-percent"></span></h3>
+					<ul>
+						<li class="small">Pequeñas: <span id="small-percent"></span></li>
+						<li class="medium">Medianas: <span id="medium-percent"></span></li>
+						<li class="big">Grandes: <span id="big-percent"></span></li>
+					</ul>
+					<p class="uncategorized">Sin categoría: <span id="uncategorized-percent"></span></p>
+				</div>
+			</div>
+		</div>
+		<script src="./js/board-bar.js"></script>
+	</body>
+</html>
